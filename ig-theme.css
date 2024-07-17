@@ -1,0 +1,71 @@
+:root {
+    --ig-font-family: "Nunito Sans";
+    --ig-radius-factor: 0;
+    --ig-elevation-factor: 0;
+    --ig-primary-h: 9deg;
+    --ig-primary-s: 87%;
+    --ig-primary-l: 53%;
+    --ig-secondary-h: 295deg;
+    --ig-secondary-s: 49%;
+    --ig-secondary-l: 15%;
+    --ig-surface-h: 293deg;
+    --ig-surface-s: 49%;
+    --ig-surface-l: 7%;
+    --ig-error-h: 342deg;
+    --ig-error-s: 74%;
+    --ig-error-l: 42%;
+    --ig-success-h: 123deg;
+    --ig-success-s: 40%;
+    --ig-success-l: 44%;
+    --ig-info-h: 231deg;
+    --ig-info-s: 48%;
+    --ig-info-l: 48%;
+    --ig-primary-700-contrast: white;
+    --ig-secondary-50-contrast: white;
+    --ig-secondary-100-contrast: white;
+    --ig-secondary-200-contrast: white;
+    --ig-secondary-300-contrast: white;
+    --ig-secondary-400-contrast: white;
+    --ig-secondary-500-contrast: white;
+    --ig-secondary-A100-contrast: white;
+    --ig-secondary-A200-contrast: white;
+    --ig-surface-50-contrast: white;
+    --ig-surface-100-contrast: white;
+    --ig-surface-200-contrast: white;
+    --ig-surface-300-contrast: white;
+    --ig-surface-400-contrast: white;
+    --ig-surface-500-contrast: white;
+    --ig-surface-600-contrast: white;
+    --ig-surface-700-contrast: white;
+    --ig-surface-800-contrast: white;
+    --ig-surface-900-contrast: white;
+    --ig-surface-A100-contrast: white;
+    --ig-surface-A200-contrast: white;
+    --ig-surface-A400-contrast: white;
+    --ig-surface-A700-contrast: white;
+    --ig-error-300-contrast: white;
+    --ig-error-400-contrast: white;
+    --ig-error-500-contrast: white;
+    --ig-error-600-contrast: white;
+    --ig-error-A400-contrast: white;
+    --ig-success-800-contrast: white;
+    --ig-info-400-contrast: white;
+    --ig-info-500-contrast: white;
+    --ig-info-A200-contrast: white;
+}
+
+/* align icons in their containers */
+.material-icons, .imx-icon {
+  vertical-align: middle;
+}
+
+.ig-typography h1,
+.ig-typography h2,
+.ig-typography h3,
+.ig-typography h4,
+.ig-typography h5,
+.ig-typography h6,
+.ig-typography p,
+.ig-typography__body-1 {
+    margin: 0 !important;
+}
